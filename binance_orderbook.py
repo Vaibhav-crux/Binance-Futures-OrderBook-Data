@@ -8,8 +8,8 @@ BASE_URL = "https://testnet.binancefuture.com"
 EXCHANGE_INFO_URL = f"{BASE_URL}/fapi/v1/exchangeInfo" 
 ORDER_BOOK_URL = f"{BASE_URL}/fapi/v1/depth"
 
-API_KEY = "hLflXSIwuxwGQefVOZDLz38rwWXJEHtLhXDToGyWWbvtWbzUhg3Q1roteEmFWhGk"
-API_SECRET = "Z35YuyPPrElqI24svtsO2m7fpxJ9ha760dT9gfqWPqCBQJHY0YAZid8p3DchqZrq"
+API_KEY = "Your API"
+API_SECRET = "Your Secrete"
 
 def are_symbols_valid(symbol1, symbol2):
     response = requests.get(EXCHANGE_INFO_URL)
